@@ -8,7 +8,7 @@ const Header = () => {
     <header className="py-3">
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link} to="/">
             <img
               src={logo}
               alt="site_logo"
