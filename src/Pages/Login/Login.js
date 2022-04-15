@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo2.png";
 
 const Login = () => {
@@ -21,13 +22,19 @@ const Login = () => {
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Control type="password" placeholder="Enter password" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
             <Button variant="danger" type="submit" className="w-100">
-              Submit
+              Login
             </Button>
           </Form>
+          <p className="mt-3">
+            Create a new account{" "}
+            <Link
+              to="/signup"
+              className="text-decoration-none text-danger fw-bold"
+            >
+              Signup
+            </Link>
+          </p>
         </Col>
       </Row>
     </Container>
