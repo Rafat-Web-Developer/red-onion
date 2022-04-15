@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../../../images/logo2.png";
 
 const Header = () => {
@@ -13,6 +13,9 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <Nav.Link href="#home" className="fw-bold">
+                Cart
+              </Nav.Link>
               <Nav.Link href="#home" className="fw-bold">
                 Login
               </Nav.Link>
