@@ -6,7 +6,7 @@ import breakfast4 from "../../../images/breakfast/breakfast4.png";
 import breakfast5 from "../../../images/breakfast/breakfast5.png";
 import breakfast6 from "../../../images/breakfast/breakfast6.png";
 import { Row } from "react-bootstrap";
-import SingleFood from "../SigleFood/SingleFood";
+import SingleFood from "../SingleFood/SingleFood";
 
 const breakfastItems = [
   {
